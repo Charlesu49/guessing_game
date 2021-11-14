@@ -16,4 +16,5 @@ def guessing_game (x):
             print("Not correct, too high!")
     print(f"You guessed {user_guess} correctly!")
 
-guessing_game(4)
+max_guess = int(input("Enter max number allowed: "))
+guessing_game(max_guess)
